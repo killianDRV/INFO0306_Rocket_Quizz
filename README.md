@@ -1,4 +1,4 @@
-# INFO0306_Rocket_Quizz
+# Rocket Quizz - INFO0306 Programmation mobile
 
 Projet de programmation mobile (Android Studio)
 
