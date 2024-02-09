@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fond"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond2"
+    tools:context=".QuestionActivity">
+
+    <TextView
+        android:id="@+id/titreQuestion"
+        android:layout_width="440dp"
+        android:layout_height="247dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="TextView"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/coeurvide1"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/coeur2" />
+
+    <ImageView
+        android:id="@+id/coeurvide3"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/coeur2" />
+
+    <ImageView
+        android:id="@+id/coeur1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/coeur" />
+
+    <ImageView
+        android:id="@+id/coeur2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/coeur" />
+
+    <TextView
+        android:id="@+id/numQuestionTextView"
+        android:layout_width="159dp"
+        android:layout_height="47dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="TextView"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/coeur3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/coeur" />
+
+    <ImageView
+        android:id="@+id/coeurvide2"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/coeur2" />
+
+    <TextView
+        android:id="@+id/montionText"
+        android:layout_width="232dp"
+        android:layout_height="118dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/CoordonneDeBase"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NombreCliqueTextView"
+        android:layout_width="133dp"
+        android:layout_height="79dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Nombre de clique = 0"
+        android:textSize="18dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewCamera"
+        android:onClick="imageQ5Cliquable"
+        android:layout_width="91dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="267dp"
+        android:layout_height="135dp"
+        android:onClick="onClickButton1"
+        android:text="Button1"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/boutonPrendrePhoto"
+        android:layout_width="267dp"
+        android:layout_height="135dp"
+        android:onClick="onClickBoutonPrendrePhoto"
+        android:text="boutonPhoto"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="onClickButton2"
+        android:layout_width="267dp"
+        android:layout_height="135dp"
+        android:text="Button2"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="onClickButton3"
+        android:layout_width="267dp"
+        android:layout_height="135dp"
+        android:text="Button3"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="onClickButton4"
+        android:layout_width="267dp"
+        android:layout_height="135dp"
+        android:text="Button4"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

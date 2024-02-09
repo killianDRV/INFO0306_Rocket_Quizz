@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projet quizz</string>
+    <string name="signup">Inscribirse</string>
+    <string name="signin">Conectarse</string>
+    <string name="Username">Nombre del usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="ConfirmPassword">Confirmar la contraseña</string>
+    <string name="AccountExists">Ya tienes una cuenta</string>
+    <string name="FieldsRequired">Todos los campos son obligatorios</string>
+    <string name="SuccessfulConnection">Conexión exitosa</string>
+    <string name="ConnectionFailed">La conexión falló</string>
+    <string name="SuccessfullyRegistered">Registrado exitosamente</string>
+    <string name="FailedRegister">Fallo el registro</string>
+    <string name="UserExists">El usuario ya existe</string>
+    <string name="PasswordsNotMatch">Las contraseñas no coinciden</string>
+    <string name="Monde1">Mundo 1</string>
+    <string name="Monde2">Mundo 2</string>
+    <string name="Monde3">Mundo 3</string>
+    <string name="QuestionMax">Pregunta máxima alcanzada: n °</string>
+    <string name="NbClique">Número de clics =</string>
+    <string name="QuestionNumero">Pregunta n °</string>
+    <string name="TitreQ1">¿Cómo se llama esta aplicación?</string>
+    <string name="TitreQ2">¿Cuántos siete (7) hay entre 0 y 100?</string>
+    <string name="TitreQ3">Algunos meses del año tienen 31 días. ¿Cuántos tienen 28?</string>
+    <string name="TitreQ4">Al tocar la pantalla se mostrará la posición, Tu objetivo: X debe estar entre 100 y 200, Y debe estar entre 500 y 600. Cada 5 clics en la pantalla, pierdes 1 vida</string>
+    <string name="CoordonneDeBase">Coordenada :  X: 0 Y: 0</string>
+    <string name="Coordonne">Coordinado</string>
+    <string name="Bt3Q4">Próxima pregunta</string>
+    <string name="TitreQ5">¿Cuál es el primer nombre del rey Jorge VI?</string>
+    <string name="TitreQ6">Objetivo: toma una foto y luego haz clic en tu foto</string>
+    <string name="Bt3Q6">Toma una foto</string>
+    <string name="TitreQ7">¿De qué país proceden las grosellas chinas?</string>
+    <string name="Bt1Q7">China</string>
+    <string name="Bt2Q7">Nueva Zelanda</string>
+    <string name="Bt3Q7">Azerbaiyán</string>
+    <string name="Bt4Q7">Japón</string>
+    <string name="TitreQ8">¿Cuántos cumpleaños tiene una persona que ha vivido 50 años?</string>
+    <string name="TitreQ9">¿Cuánto duró la Guerra de los Cien Años?</string>
+    <string name="Bt1Q9">13 años</string>
+    <string name="Bt2Q9">38 años</string>
+    <string name="Bt3Q9">100 años</string>
+    <string name="Bt4Q9">+ 110 años</string>
+    <string name="TitreQ10">Divido 40 por la mitad (1/2), lo multiplico por 2 y resto 60. ¿Cuánto me queda?</string>
+    <string name="FiniMonde1">Has terminado el mundo 1</string>
+    <string name="ReponseQ1">Pregunta fácil para empezar</string>
+    <string name="ReponseQ2">7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 87 y 97, Sea 20 veces el número 7</string>
+    <string name="ReponseQ3">Todos tienen al menos 28 días de edad ...</string>
+    <string name="ReponseQ4">Muy preciso</string>
+    <string name="ReponseQ5">George VI, nacido Albert Frederick Arthur George el 14 de diciembre de 1895 en Sandringham</string>
+    <string name="ReponseQ6">Bonita foto</string>
+    <string name="ReponseQ7">La grosella espinosa china, también conocida como \'kiwi\', fue popularizada por los neozelandeses a principios de la década de 1960.</string>
+    <string name="ReponseQ8">Cada persona tiene uno y solo un cumpleaños, lógico.</string>
+    <string name="ReponseQ9">La Guerra de los Cien Años comenzó en 1337 y terminó en 1453, por un total de 116 años.</string>
+    <string name="ReponseQ10">40 / 0.5 = 80, 80 * 2 = 160 y 160 - 60 = 100, nivel colegio</string>
+    <string name="descNotif">¡Vuelve, te extrañamos!</string>
+    <string name="messages_header">Ajuste</string>
+    <string name="Version">Versión 1.0.0</string>
+    <string name="Information">Información</string>
+    <string name="Parametre">Ajuste</string>
+    <string name="signature_title">Su nombre de usuario</string>
+    <string name="sync_title">Me gusta esta aplicación</string>
+    <string name="title_activity_settings">Ajuste</string>
+    <string name="APropos">Acerca de</string>
+    <string name="reply_title">Información del creador</string>
+</resources>

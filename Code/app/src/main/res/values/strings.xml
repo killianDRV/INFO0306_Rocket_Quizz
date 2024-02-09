@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Rocket Quizz</string>
+
+    <!--ConnexionActivity.java et Inscription.java-->
+    <string name="signup">S\'inscrire</string>
+    <string name="signin">Se connecter</string>
+    <string name="Username">Nom d\'utilisateur</string>
+    <string name="Password">Mot de passe</string>
+    <string name="ConfirmPassword">Confirmer le mot de passe</string>
+    <string name="AccountExists">Déja un compte</string>
+    <string name="FieldsRequired">Tous les champs sont requis</string>
+    <string name="SuccessfulConnection">Connexion réussie</string>
+    <string name="ConnectionFailed">Échec de la connexion</string>
+    <string name="SuccessfullyRegistered">Enregistré avec succès</string>
+    <string name="FailedRegister">Échec de l\'enregistrement</string>
+    <string name="UserExists">L\'utilisateur existe déjà</string>
+    <string name="PasswordsNotMatch">Les mots de passe ne correspondent pas</string>
+
+    <string name="title_activity_parametre" translatable="false">ParametreActivity</string>
+
+    <!--HomeActivity.java-->
+    <string name="Monde1">Monde 1</string>
+    <string name="Monde2">Monde 2</string>
+    <string name="Monde3">Monde 3</string>
+    <string name="QuestionMax">Question maximal atteinte : n°</string>
+    <string name="NbClique">Nombre de clique =</string>
+    <string name="QuestionNumero">Question n°</string>
+    <string name="TitreQ1">Comment s\'appelle cette application ?</string>
+    <string name="TitreQ2">Combien y a t-il de sept (7) entre 0 et 100 ?</string>
+    <string name="TitreQ3">Certains mois de l\'année comptent 31 jours. Combien en ont 28 ?</string>
+    <string name="TitreQ4">Toucher l\'écran affichera la position, Votre objectif : X doit être compris entre 100 et 200, Y doit être compris entre 500 et 600. Tous les 5 cliques sur l\'écran, vous perdez 1 vie</string>
+    <string name="CoordonneDeBase">Coordonnées :  X: 0 Y: 0</string>
+    <string name="Coordonne">Coordonnées</string>
+    <string name="Bt3Q4">Question suivante</string>
+    <string name="TitreQ5">Quel est le prénom du roi George VI ?</string>
+    <string name="Bt1Q5" translatable="false">Albert</string>
+    <string name="Bt2Q5" translatable="false">Georges</string>
+    <string name="Bt3Q5" translatable="false">Ghislain</string>
+    <string name="Bt4Q5" translatable="false">Richard</string>
+    <string name="TitreQ6">Objectif : prenez  une photo puis cliquez sur votre photo</string>
+    <string name="Bt3Q6">Prendre une photo</string>
+    <string name="TitreQ7">De quel pays proviennent les groseilles chinoises ?</string>
+    <string name="Bt1Q7">Chine</string>
+    <string name="Bt2Q7">Nouvelle-Zélande</string>
+    <string name="Bt3Q7">Azerbaïdjan</string>
+    <string name="Bt4Q7">Japon</string>
+    <string name="TitreQ8">Combien de jours d\'anniversaires a une personne qui a vécu 50 ans ?</string>
+    <string name="TitreQ9">Combien de temps a duré la guerre de cent ans ?</string>
+    <string name="Bt1Q9">13 ans</string>
+    <string name="Bt2Q9">38 ans</string>
+    <string name="Bt3Q9">100 ans</string>
+    <string name="Bt4Q9">+ de 110 ans</string>
+    <string name="TitreQ10">Je divise 40 par un demi (1/2), je multiplie le tout par 2, et j\'enlève 60. Combien me reste-t-il ?</string>
+
+    <!--ReponseActivity.java-->
+    <string name="FiniMonde1">Vous avez fini le Monde 1</string>
+    <string name="ReponseQ1">Question facile pour commencer</string>
+    <string name="ReponseQ2">7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 87 et 97  Soit 20 fois le chiffre 7</string>
+    <string name="ReponseQ3">Ils ont tous au moins 28 jours ...</string>
+    <string name="ReponseQ4">Très précis</string>
+    <string name="ReponseQ5">George VI, né Albert Frederick Arthur George le 14 décembre 1895 à Sandringham</string>
+    <string name="ReponseQ6">Belle photo</string>
+    <string name="ReponseQ7">La groseille chinoise, autrement appelé \'kiwi\', a été popularisé par les Néo-Zélandais au début des années 1960</string>
+    <string name="ReponseQ8">Chaque personne à une et une seul date d\'anniversaire, logique</string>
+    <string name="ReponseQ9">La guerre de Cent Ans a commencé en 1337 et a terminer en 1453, soit un total de 116 ans</string>
+    <string name="ReponseQ10">40 / 0.5 = 80, 80 * 2 = 160 et 160 - 60 = 100, niveau collège</string>
+
+    <!--ReminderBroadcast-->
+    <string name="descNotif">Revenez, vous nous manquez !</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Paramètre</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!--menu_acceuil.xml-->
+    <string name="Version">Version 1.0.0</string>
+    <string name="APropos">À propos</string>
+    <string name="Parametre">Paramètre</string>
+    <string name="signature_title">Votre pseudo</string>
+    <string name="reply_title">Information du créateur</string>
+
+    <!-- root_preferences.xml -->
+    <string name="sync_title">J\'aime cette application</string>
+    <string name="title_activity_settings">Paramètre</string>
+    <string name="Information">Information</string>
+</resources>

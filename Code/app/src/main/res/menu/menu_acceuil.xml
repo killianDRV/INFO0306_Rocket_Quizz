@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/messages_header"
+        android:icon="@drawable/coeur"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="@string/messages_header"
+        android:id="@+id/roue"
+        android:icon="@drawable/parametre"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item android:id="@+id/acceuil_parametre"
+                android:title="@string/messages_header"/>
+
+            <item android:title="@string/APropos">
+
+                <menu>
+                    <item android:title="@string/Version"/>
+                    <item android:title="@string/reply_title"
+                        android:id="@+id/createur"/>
+                </menu>
+
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>

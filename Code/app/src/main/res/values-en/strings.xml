@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projet quizz</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="AccountExists">Already have an account</string>
+    <string name="FieldsRequired">All fields are required</string>
+    <string name="SuccessfulConnection">Successful connection</string>
+    <string name="ConnectionFailed">Connection failed</string>
+    <string name="SuccessfullyRegistered">Successfully registered</string>
+    <string name="FailedRegister">Failed to register</string>
+    <string name="UserExists">User already exists</string>
+    <string name="PasswordsNotMatch">Passwords do not match</string>
+    <string name="Monde1">World 1</string>
+    <string name="Monde2">World 2</string>
+    <string name="Monde3">World 3</string>
+    <string name="QuestionMax">Maximum question reached: n °</string>
+    <string name="NbClique">Number of clicks =</string>
+    <string name="QuestionNumero">Question n °</string>
+    <string name="TitreQ1">What is this application called?</string>
+    <string name="TitreQ2">How many seven (7) are there between 0 and 100?</string>
+    <string name="TitreQ3">Some months of the year have 31 days. How many have 28?</string>
+    <string name="TitreQ4">Touching the screen will display the position, Your goal: X must be between 100 and 200, Y must be between 500 and 600. Every 5 clicks on the screen, you lose 1 life</string>
+    <string name="CoordonneDeBase">Coordinate :  X: 0 Y: 0</string>
+    <string name="Coordonne">Coordinate</string>
+    <string name="Bt3Q4">Next question</string>
+    <string name="TitreQ5">What is the first name of King George VI?</string>
+    <string name="TitreQ6">Objective: take a photo then click on your photo</string>
+    <string name="Bt3Q6">Take a picture</string>
+    <string name="TitreQ7">What country do Chinese currants come from?</string>
+    <string name="Bt1Q7">China</string>
+    <string name="Bt2Q7">New Zealand</string>
+    <string name="Bt3Q7">Azerbaijan</string>
+    <string name="Bt4Q7">Japan</string>
+    <string name="TitreQ8">How many birthdays has a person who has lived 50 years?</string>
+    <string name="TitreQ9">How long did the Hundred Years War last?</string>
+    <string name="Bt1Q9">13 years</string>
+    <string name="Bt2Q9">38 years</string>
+    <string name="Bt3Q9">100 years</string>
+    <string name="Bt4Q9">+ 110 years</string>
+    <string name="TitreQ10">I divide 40 by a half (1/2), I multiply it by 2, and I subtract 60. How much do I have left?</string>
+    <string name="FiniMonde1">You have finished World 1</string>
+    <string name="ReponseQ1">Easy question to start</string>
+    <string name="ReponseQ2">7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 87 and 97 That is 20 times the number 7</string>
+    <string name="ReponseQ3">They are all at least 28 days old ...</string>
+    <string name="ReponseQ4">Very precise</string>
+    <string name="ReponseQ5">George VI, born Albert Frederick Arthur George on December 14, 1895 in Sandringham</string>
+    <string name="ReponseQ6">Beautiful photo</string>
+    <string name="ReponseQ7">The Chinese gooseberry, otherwise known as \'kiwi\', was popularized by New Zealanders in the early 1960s</string>
+    <string name="ReponseQ8">Each person has one and only one birthday, logical</string>
+    <string name="ReponseQ9">The Hundred Years\' War began in 1337 and ended in 1453, for a total of 116 years</string>
+    <string name="ReponseQ10">40 / 0.5 = 80, 80 * 2 = 160 and 160 - 60 = 100, middle School level</string>
+    <string name="descNotif">Come back, we miss you!</string>
+    <string name="messages_header">Setting</string>
+    <string name="Version">Version 1.0.0</string>
+    <string name="Information">Information</string>
+    <string name="Parametre">Setting</string>
+    <string name="signature_title">Your username</string>
+    <string name="sync_title">I like this app</string>
+    <string name="title_activity_settings">Setting</string>
+    <string name="APropos">In regards to</string>
+    <string name="reply_title">Creator information</string>
+</resources>
